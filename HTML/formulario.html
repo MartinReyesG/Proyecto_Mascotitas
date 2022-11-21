@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+    <script src="../JavaScript/Formulario.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>MASCOTITAS</h1>
+        <img src="../img/perro.svg"  width="80%" height="80%">
+        <!-- <h2 id="userLog"></h2> -->      
+        <nav>
+            <ul>
+                <li><a href="../html/catalogo_mascotas.html">Catálogo de mascotas</a></li>
+                <li><a href="../html/catalogo_producto.html">Catálogo de productos</a></li>
+                <li><a href="../html/adopcion.html">Adopción</a></li>
+                <li><a href="../html/gato.html">Juego del gato y perro</a></li>  
+                <li><a href="../PHP/gestion.php">Gestion</a></li> 
+                <li><a href="../html/principal.html">Principal</a></li>
+            </ul>
+        </nav>
+        <h2 id = "userLog"></h2>   
+    </header>
+    <main class="container">
+        <section class="container-section">
+            <div class="container-input">
+                <form>
+                    <input type="text" id="name" placeholder='Nombre' name='nombre'></input>
+                    <input type="text"  id="lastName" placeholder='Apellido' name='apellido'></input>
+                    <input type="text"  id="email" placeholder='Correo' name='correo'></input>
+                    <input type="text"  id="telefono" placeholder='Telefono' name='celular'></input>
+                    <input type="text"  id="userR" placeholder='Usuario' name='usuario'></input>
+                    <input type="password" id="passR" placeholder='Contraseña' name='contra'></input>
+                    <input type="button" onclick="registro()" id="btn2" value="Registra" class="boton"></input>
+                    <h2 id="log"></h2>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <aside>
+        <h2>Iniciar Sesión</h2>
+        <div class="container-aside">
+            <form>
+                <input type="text" id="user" placeholder='Usuario' name='name'></input>
+                <input type="password" id="password" placeholder='Contraseña' name='lastName'></input>
+                <input type="button" onclick="login()" id="btn1" value="Iniciar Sesión" class="boton log"></input>
+                <input type="button" onclick="cerrar()" id="btn2" value="Cerrar Sesión" class="boton log"></input>
+                <h2 id="logInicio"></h2>
+            </form>
+        </div>
+    </aside>
+    
+    <footer>
+        <div class="contenedor-izq">
+            <h3>Dirección</h3>
+            <p>Av. Tecnologico</p>
+        </div>
+        <div class="contenedor-der">
+            <h3>Número</h3>
+            <p>445 987 8903</p>
+        </div>
+        <h2 class="titulo-final">&copy; INSTITUO TECNOLOGICO SUPERIOR DEL SUR DE GUANAJUATO</h2>
+    </footer>
+</body>
+</html>

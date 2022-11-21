@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+
+    <title>3 EN LINEA</title>
+
+    <link rel="icon" href="../img/blanco.png" />
+    <link rel="stylesheet" href="../css/gato.css" />
+    <link rel="stylesheet" href="../css/gato_2.css" />
+    <script src="../javascript/gato.js"></script>
+    <script src="../javascript/formulario.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins"
+    />
+  </head>
+  <body>
+    <h2 id="userLog"></h2>
+    <main id="container">
+      <h2 id="texto"></h2>
+      <section class="parte">
+        <input
+          type="button"
+          value=""
+          onclick="cargar('i1', 0, 0)"
+          class="uno img"
+          id="i1"
+        />
+        <input
+          type="button"
+          value=""
+          onclick="cargar('i2', 0, 1)"
+          class="img"
+          id="i2"
+        />
+        <input
+          type="button"
+          value=""
+          onclick="cargar('i3', 0, 2)"
+          class="img"
+          id="i3"
+        />
+        <input
+          type="button"
+          value=""
+          onclick="cargar('i4', 1, 0)"
+          class="img"
+          id="i4"
+        />
+        <input
+          type="button"
+          value=""
+          onclick="cargar('i5', 1, 1)"
+          class="img"
+          id="i5"
+        />
+        <input
+          type="button"
+          value=""
+          onclick="cargar('i6', 1, 2)"
+          class="img"
+          id="i6"
+        />
+        <input
+          type="button"
+          value=""
+          onclick="cargar('i7', 2, 0)"
+          class="img"
+          id="i7"
+        />
+        <input
+          type="button"
+          value=""
+          onclick="cargar('i8', 2, 1)"
+          class="img"
+          id="i8"
+        />
+        <input
+          type="button"
+          value=""
+          onclick="cargar('i9', 2, 2)"
+          class="img"
+          id="i9"
+        />
+      </section>
+      <input
+        type="button"
+        value="REINICIAR"
+        onclick="reiniciar()"
+        class="reinicio"
+      />
+    </main>
+    <div class="modal-container" id="modal-container">
+      <div class="modal main-div main-div2">
+        <h1 id="ganador" class="ganador">EL GANADOR</h1>
+        <div id="imagen" class="modal-img"></div>
+        <input
+          type="button"
+          onclick="cerrar()"
+          value="VOLVER A JUGAR"
+          class="reinicio iniciar"
+        />
+      </div>
+    </div>
+  </body>
+</html>

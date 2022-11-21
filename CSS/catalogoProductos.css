@@ -1,0 +1,269 @@
+body {
+  background: #ebdfdf;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+header {
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(227, 199, 59);
+}
+
+header h1 {
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 40px;
+}
+
+header img {
+  width: 200px;
+}
+
+header nav {
+  background: #f5e186;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  float: right;
+}
+
+header nav ul li a {
+  padding: 10px 20px;
+  display: block;
+  color: #272241;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  background: #ff8000;
+}
+aside {
+  width: 30%;
+  float: right;
+  background-color: #f9dfbd;
+}
+aside img {
+  height: 1200px;
+  width: 500px;
+  padding-left: 5px;
+}
+.main {
+  background-color: #faefbc;
+  width: 70%;
+  display: flex;
+  float: left;
+  height: 100vh;
+}
+.contenido {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.cuadroDeImagen {
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  background-color: #899dfa;
+  border-radius: 10px;
+}
+
+.cuadroDeImagen:hover {
+  background-color: #ff8000;
+}
+
+.imagenCentral {
+  margin: auto;
+}
+.descripccionArt {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+.descripccionpelota h2 {
+  color: white;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.descripccionpelota p {
+  color: #fff;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.descripccioncorrea h2 {
+  color: white;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.descripccioncorrea p {
+  color: #fff;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.descripccioncroquetas h2 {
+  color: white;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.descripccioncroquetas p {
+  color: #fff;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.descripccionshampo h2 {
+  color: white;
+  border-bottom: 2px solid #899dfa;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.descripccionshampo p {
+  color: #fff;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.descripcciontransportadora h2 {
+  color: white;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.descripcciontransportadora p {
+  color: #fff;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.descripccioncobija h2 {
+  color: white;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.descripccioncobija p {
+  color: #fff;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.descripccionplato h2 {
+  color: white;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.descripccionplato p {
+  color: #fff;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.descripccionropa h2 {
+  color: white;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.descripccionropa p {
+  color: #fff;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.descripccioncama h2 {
+  color: white;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.descripccioncama p {
+  color: #fff;
+  padding-top: 10px;
+  font-size: 16px;
+}
+footer {
+  background: #80323c;
+  padding: 10px;
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+}
+.contenedor-footer {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+.contenedor-footer h4 {
+  color: #fff;
+  border-bottom: 3px solid #ff834e;
+  padding-bottom: 5px;
+  margin-bottom: 3px;
+}
+.contenedor-footer p {
+  color: #fff;
+}
+
+footer h2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
