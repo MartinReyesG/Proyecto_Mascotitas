@@ -28,14 +28,14 @@
     <main class="container">
         <section class="container-section">
             <div class="container-input">
-                <form>
+                <form action = "../php/insertar.php" method = "post">
                     <input type="text" id="name" placeholder='Nombre' name='nombre'></input>
                     <input type="text"  id="lastName" placeholder='Apellido' name='apellido'></input>
                     <input type="text"  id="email" placeholder='Correo' name='correo'></input>
                     <input type="text"  id="telefono" placeholder='Telefono' name='celular'></input>
                     <input type="text"  id="userR" placeholder='Usuario' name='usuario'></input>
                     <input type="password" id="passR" placeholder='Contraseña' name='contra'></input>
-                    <input type="button" onclick="registro()" id="btn2" value="Registra" class="boton"></input>
+                    <input type="submit" onclick="registro()" id="btn2" value="Registra" class="boton"></input>
                     <h2 id="log"></h2>
                 </form>
             </div>
@@ -45,11 +45,11 @@
     <aside>
         <h2>Iniciar Sesión</h2>
         <div class="container-aside">
-            <form>
+            <form action="../PHP/login.php" method="POST">
                 <input type="text" id="user" placeholder='Usuario' name='name'></input>
-                <input type="password" id="password" placeholder='Contraseña' name='lastName'></input>
-                <input type="button" onclick="login()" id="btn1" value="Iniciar Sesión" class="boton log"></input>
-                <input type="button" onclick="cerrar()" id="btn2" value="Cerrar Sesión" class="boton log"></input>
+                <input type="password" id="password" placeholder='Contraseña' name='contra'></input>
+                <input type="submit" onclick="login()" id="btn1" value="Iniciar Sesión" class="boton log"></input>
+                <input type="submit" onclick="cerrar()" id="btn2" value="Cerrar Sesión" class="boton log"></input>
                 <h2 id="logInicio"></h2>
             </form>
         </div>
